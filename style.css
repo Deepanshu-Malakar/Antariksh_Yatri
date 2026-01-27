@@ -12,6 +12,7 @@ html,body{
 body{
     background: url(./res/background.jpg);
     background-size: cover;
+    cursor: url(./res/rocket.png);
 }
 
 button.tabs{
@@ -22,10 +23,12 @@ button.tabs{
     border-radius: 10px;
     border: 0px;
     margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
 }
 
 button.tabs:hover{
-    background-color: rgba(24, 35, 73, 0.453);
+    background-color: rgba(176, 196, 254, 0.071);
     transition: 1s;
 }
 
